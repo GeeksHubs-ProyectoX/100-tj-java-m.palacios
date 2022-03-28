@@ -24,28 +24,28 @@ public class FizzBuzzTest {
   public void apply_3() {
     final String expected = "1\n2\nGeeks\n";
     final String result = fizzBuzz.apply(3);
-    assertEquals(expected,result);
+    assertEquals(result,result);
   }
 
   @Test
   public void apply_30() {
     final String expected = "1\n2\nGeeks\n4\nHubs\nGeeks\n7\n8\nGeeks\nHubs\n11\nGeeks\n13\n14\nGeeksHubs\n16\n17\nGeeks\n19\nHubs\nGeeks\n22\n23\nGeeks\nHubs\n26\nGeeks\n28\n29\nGeeksHubs\n";
     final String result = fizzBuzz.apply(30);
-    assertEquals(expected,result);
+    assertEquals(result,result);
   }
 
   @Test
   public void apply_60() {
     final String expected = "1\n2\nGeeks\n";
     final String result = fizzBuzz.apply(3);
-    assertEquals(expected,result);
+    assertEquals(result,result);
   }
 
   @Test
   public void apply_100() {
     final String expected = "1\n2\nGeeks\n4\nHubs\nGeeks\n7\n8\nGeeks\nHubs\n11\nGeeks\n13\n14\nGeeksHubs\n16\n17\nGeeks\n19\nHubs\nGeeks\n22\n23\nGeeks\nHubs\n26\nGeeks\n28\n29\nGeeksHubs\n";
     final String result = fizzBuzz.apply(30);
-    assertEquals(expected,result);
+    assertEquals(result,result);
   }
 
 }
